@@ -1,10 +1,14 @@
+/* RPA.
+Descr. Ejemplo de declaracion e inicializacion de arreglos 
+*/
+
 #include <stdio.h>
 #define MAXV 4   // constante simbolica
 //const int MAXV1 = 4;  // celda de memoria de valor constante
 
 void main() {
     int vint1[MAXV];  // un arreglo o vector de enteros de tamano MAXV
-    float vfloat1[MAXV];  // un arreglo o vector de punto flotante de tamaño MAXV
+    float vfloat1[MAXV];  // un arreglo o vector de punto flotante de tamaÃ±o MAXV
     char cadena1[MAXV];   // cadena de caracteres o arreglo de char
 
     int vint2[] = {23, 45, 23, 53};  // N=4
